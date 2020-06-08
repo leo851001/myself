@@ -2,7 +2,7 @@
   const projects = [
     {
       title: 'Nextmeal',
-      image: './img/projects/nextmeal.png',
+      image: './img/projects/123.jpg',
       imageAlt: 'Nextmeal Project Cover Photo',
       description: 'An online platform, built by a group of 3, for users to readily access and order awesome food nearby at a reasonable price. Dashboards with data visualization are also developed for restaurant owners and admin.',
       badgeCaption: 'Nextmeal',
@@ -13,8 +13,6 @@
       },
       accomplishments: [
         'Built with Vue, Vuex, Vue Router',
-        'Create maps using Google Maps API',
-        'Chart.js for data visualization',
         'Using Axios, RESTful API',
         'Connect to third party payment APIs',
         'Node, Express, MySQL',
@@ -22,7 +20,7 @@
     },
     {
       title: 'Placeholder Image Helper',
-      image: './img/projects/chrome-extension-cover.jpeg',
+      image: './img/projects/123.jpg',
       imageAlt: 'Chrome Extension Project Cover Photo',
       description: 'A functional Google Chrome Extension that helps users readily generate placeholder images and find the right royalty-free images with accessible links of all sizes listed on a report that can be copied and used right away!',
       badgeCaption: 'Chrome Extension',
@@ -40,7 +38,7 @@
     },
     {
       title: 'Expense Tracker',
-      image: './img/projects/expense-tracker.png',
+      image: './img/projects/123.jpg',
       imageAlt: 'Expense Tracker Project Cover Photo',
       description: 'A practical web application built with Node.js, Express, and MongoDB for you to readily record, view, and manage your expense with an account: Create, view, edit, delete, filter expenses are as easy as pie',
       badgeCaption: 'Node.js & Express',
@@ -60,7 +58,7 @@
     },
     {
       title: 'Todo List',
-      image: './img/projects/todo-list.png',
+      image: './img/projects/123.jpg',
       imageAlt: 'Expense Tracker Project Cover Photo',
       description: 'A practical web application built with Node.js, Express, and MySQL for you to readily record, view, and manage your tasks with an account: Create, view, edit, delete, filter, and sort expenses are as easy as pie',
       badgeCaption: 'Node.js & Express',
@@ -83,7 +81,7 @@
     {
       name: '打造美食預定平台',
       link: 'http://tiny.cc/2vxzgz',
-      image: './img/about-me/about-me-1.jpeg'
+      image: './img/about-me/about-me-1.jpg'
     },
     {
       name: '轉職心路歷程',
