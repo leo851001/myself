@@ -3,7 +3,7 @@ My portfolio learned and built using Materialize CSS framework, Animate.css, jQu
 
 
 ## Project First Look
-![Website Screen Shot in GIF](project-screenshot.gif)
+![Website Screen Shot in GIF](myself.gif)
 
 
 ## Content on the portfolio page
