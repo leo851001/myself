@@ -1,101 +1,88 @@
 (function () {
   const projects = [
     {
-      title: 'Nextmeal',
-      image: './img/projects/123.jpg',
-      imageAlt: 'Nextmeal Project Cover Photo',
-      description: 'An online platform, built by a group of 3, for users to readily access and order awesome food nearby at a reasonable price. Dashboards with data visualization are also developed for restaurant owners and admin.',
-      badgeCaption: 'Nextmeal',
+      title: '大學專題 - 太陽能源監控系統',
+      image: './img/projects/solar.png',
+      imageAlt: 'Solar system',
+      description: '專題開始前受指導教授邀約至泰國皇家清邁大學-亞洲社會經濟技術發展學院-工程院，進行太陽能相關的研究學習，那邊有一大塊土地，上面架設著數量非常可觀的太陽能板，但沒有監控平台可以協助監控太陽能發電的狀況，而我們的任務就是收集太陽能板產生的資料，並建立一個監控系統，將收集到的資料呈現於前端給使用者瀏覽，但人員不可能每分每秒的盯在螢幕檢視數據是否有異常，所以我們利用Line Notify API，在數據通過監控系統API時，會檢查資料的狀態，當系統一發現數據出現問題，並會透過Line聯絡管理人員。回到台灣之後教授建議將這個專案繼續，讓專案更加完整，然後作為畢業專題的題目',
+      badgeCaption: 'Solar system',
       links: {
-        github: 'https://github.com/smallpaes/nextmeal',
-        heroku: 'https://nextmeal.herokuapp.com/#/',
-        medium: 'http://tiny.cc/kd1zgz'
+        github: 'https://github.com/leo851001/server_side'
       },
       accomplishments: [
-        'Built with Vue, Vuex, Vue Router',
-        'Using Axios, RESTful API',
-        'Connect to third party payment APIs',
-        'Node, Express, MySQL',
+        'HTML、JavaScript',
+        'Bootstrap',
+        'Laravel',
+        'Line API'
       ]
     },
     {
-      title: 'Placeholder Image Helper',
-      image: './img/projects/123.jpg',
-      imageAlt: 'Chrome Extension Project Cover Photo',
-      description: 'A functional Google Chrome Extension that helps users readily generate placeholder images and find the right royalty-free images with accessible links of all sizes listed on a report that can be copied and used right away!',
-      badgeCaption: 'Chrome Extension',
+      title: '英文學習應用 - 題庫管理後台',
+      image: './img/projects/kinect.png',
+      imageAlt: 'Backend for english study app',
+      description: '主要是使用Laravel + Firebase開發的，原本那個英文學習程式的題庫新增刪除修改都要直接到firebase操作，管理起來實在不方便，所以搭配Firebase的api做了一個後台來管理題庫，讓管理者在管理題庫的時候更有效率',
+      badgeCaption: 'Laravel & Firebase',
       links: {
-        github: 'https://github.com/smallpaes/find-placeholder-image',
-        chrome: 'https://bit.ly/306Wp7b',
-        medium: 'https://bit.ly/2GN6q1F'
+        github: 'https://github.com/leo851001/learning-firebase'
       },
       accomplishments: [
-        'Chrome Extension form scratch',
-        'Published to Chrome Web Store',
-        'Built with Bootstrap 4.3',
-        'Using Javascript ES6'
+        'HTML、JavaScript',
+        'Bootstrap',
+        'Laravel',
+        'Firebase'
       ]
     },
     {
-      title: 'Expense Tracker',
-      image: './img/projects/123.jpg',
-      imageAlt: 'Expense Tracker Project Cover Photo',
-      description: 'A practical web application built with Node.js, Express, and MongoDB for you to readily record, view, and manage your expense with an account: Create, view, edit, delete, filter expenses are as easy as pie',
-      badgeCaption: 'Node.js & Express',
+      title: '欠錢寶 - 前端Vue的LineBot',
+      image: './img/projects/money.png',
+      imageAlt: 'money-bot',
+      description: '因為當時以聊天機器人為底開發的相關應用程式剛開始熱門起來，所以就跟一個同學突發奇想的想說也來做一個，名字是欠錢寶（靈感是對岸的行動電源：充電寶ＸＤ），原因是我們學生間常常有小額借款像是：欸欸幫我買飲料錢下次給你，通常這種事情都會被遺忘，就默默損失10元、20元了ＱＱ，所以我們就結合學生最常使用的line做了欠錢寶，只需要幾個步驟就能記下這些原本可能會消失的零錢，我主要是用vue負責前端的部分，同學負責後端並開api讓我串接',
+      badgeCaption: 'Vue & Line',
       links: {
-        github: 'https://github.com/smallpaes/expense-tracker',
-        heroku: 'https://boiling-beach-19178.herokuapp.com/',
-        medium: 'https://bit.ly/2M679Q3'
+        github: 'https://github.com/leo851001/moneybot_frontend'
       },
       accomplishments: [
-        'Express Handlebars & Bootstrap',
-        'MongoDB & Mongoose',
-        'Passport Authentication',
-        'Front-end & Back-end validation',
-        'CSRF Protection',
-        'Password reset & Mailing feature'
+        'Vue',
+        'Line API',
+        'Line LIFF'
       ]
     },
     {
-      title: 'Todo List',
-      image: './img/projects/123.jpg',
-      imageAlt: 'Expense Tracker Project Cover Photo',
-      description: 'A practical web application built with Node.js, Express, and MySQL for you to readily record, view, and manage your tasks with an account: Create, view, edit, delete, filter, and sort expenses are as easy as pie',
-      badgeCaption: 'Node.js & Express',
+      title: '手機狂響 x 專注森林',
+      image: './img/projects/kill.png',
+      imageAlt: 'kill-mobile',
+      description: '因緣際會下跟同學一起接了一個時刻科技的case，是對岸一部電影“手機狂響”的宣傳小遊戲，用意跟Forest一樣是希望可以讓使用者放下手機，主要是使用vue開發前端的部分，後端是時刻科技的工程師開api給我們串接',
+      badgeCaption: 'Vue & RESTful API',
       links: {
-        github: 'https://github.com/smallpaes/todo-list',
-        medium: 'https://bit.ly/2yIrimi'
+        github: 'https://github.com/leo851001/kill_mobile'
       },
       accomplishments: [
-        'Express Handlebars & Bootstrap',
-        'MySQL & Sequelize',
-        'Passport Authentication',
-        'Front-end & Back-end validation',
-        'CSRF Protection',
-        'Animate.css',
+        'Vue',
+        'Vuex',
+        'RESTful API'
       ]
     }
   ]
 
   const blogPosts = [
     {
-      name: '打造美食預定平台',
-      link: 'http://tiny.cc/2vxzgz',
+      name: '我的GitHub',
+      link: 'https://github.com/leo851001',
       image: './img/about-me/about-me-1.jpg'
     },
     {
-      name: '轉職心路歷程',
-      link: 'http://tiny.cc/atxzgz',
-      image:'./img/about-me/about-me-2.jpg"'
+      name: '我的FaceBook',
+      link: 'https://www.facebook.com/leo.huang.391/',
+      image:'./img/about-me/about-me-2.jpg'
     },
     {
-      name: '分享前端技能養成',
-      link: 'https://bit.ly/2Oxf8ax',
+      name: '我的Instagram',
+      link: 'https://www.instagram.com/leohuang1996/',
       image: './img/about-me/about-me-3.jpg'
     },
     {
-      name: '展開轉職工程師之路',
-      link: 'http://tiny.cc/iq2zgz',
+      name: '我的E-Mail',
+      link: 'mailto:leo851001@gmail.com',
       image: './img/about-me/about-me-4.jpg'
     }
   ]
